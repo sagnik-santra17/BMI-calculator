@@ -90,6 +90,10 @@ p {
 }
 
 @media (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+
   .container {
     display: flex;
     align-items: center;
@@ -103,6 +107,11 @@ p {
     justify-content: center;
     gap: 20px;
     margin: 0;
+  }
+
+  .height,
+  .weight {
+    padding: 10px;
   }
 
   .height {
