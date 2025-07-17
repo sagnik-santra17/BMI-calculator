@@ -53,6 +53,11 @@ p {
   color: #fff;
 }
 
+.metric {
+  color: white;
+  margin-right: 20px;
+}
+
 .height {
   margin-right: 30px;
   padding: 5px;
@@ -66,6 +71,18 @@ p {
 .weight::placeholder {
   color: gray;
   font-style: italic;
+}
+
+.input-fields {
+  display: flex;
+}
+
+.inches,
+.error-msg,
+.final-msg,
+.high-bmi,
+.low-bmi {
+  display: none;
 }
 
 .btns {

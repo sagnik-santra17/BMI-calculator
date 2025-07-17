@@ -21,9 +21,45 @@
         <p>Enter your height and weight to calculate your BMI</p>
       </div>
 
+      <p class="final-msg"></p>
+      <p class="error-msg">No input</p>
+      <p class="high-bmi"></p>
+      <p class="low-bmi"></p>
+
+      <form action="">
+        <input
+          type="radio"
+          class="select-height-metric"
+          name="height-unit"
+          id="meter"
+        />
+        <label for="meter" class="metric meter">Meter</label>
+
+        <input
+          type="radio"
+          class="select-height-metric"
+          name="height-unit"
+          id="cm"
+        />
+        <label for="cm" class="metric cm">Cm</label>
+
+        <input
+          type="radio"
+          class="select-height-metric feet"
+          name="height-unit"
+          id="feet"
+        />
+        <label for="feet" class="metric">Feet</label>
+      </form>
+
       <div class="input-fields">
         <input type="text" class="height" placeholder="Enter your height" />
-        <input type="text" class="weight" placeholder="Enter your weight" />
+        <input type="text" class="height inches" placeholder="Inches" />
+        <input
+          type="text"
+          class="weight"
+          placeholder="Enter your weight (kg)"
+        />
       </div>
       <div class="btns">
         <div class="btn submit-btn">Submit</div>
